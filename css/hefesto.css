@@ -50,3 +50,8 @@ text-decoration: none;
 font-family: sans-serif;
 border-radius: 4px;
 }
+
+.btn-modal { background: #c2410c; color: #fff; font-family: monospace; padding: 10px; cursor: pointer; border: 1px solid #fdba74; margin-top: 15px; }
+.modal-box { background: #27272a; color: #fb923c; border: 2px dashed #9a3412; padding: 20px; }
+.modal-box::backdrop { background: rgba(0,0,0,0.7); }
+.partner-footer { grid-column: 1 / -1; border-top: 2px dashed #9a3412; padding-top: 15px; text-align: center; }
