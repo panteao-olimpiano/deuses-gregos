@@ -1,0 +1,41 @@
+body.hermes-theme {
+background: linear-gradient(to top, #f0f9ff, #bae6fd);
+color: #0369a1;
+font-family: 'Verdana', sans-serif;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.messenger-container {
+background: #ffffff;
+padding: 3rem;
+border-radius: 50px 10px 50px 10px;
+text-align: center;
+max-width: 450px;
+box-shadow: 10px 10px 0px #38bdf8;
+}
+.wings-icon {
+font-size: 3rem;
+}
+.hermes-img {
+width: 100%;
+border-radius: 50px 10px 50px 10px;
+margin: 1.5rem 0;
+}
+.attributes p {
+line-height: 1.6;
+font-size: 1.1rem;
+}
+.speed-btn {
+display: inline-block;
+margin-top: 1.5rem;
+background: #0284c7;
+color: #fff;
+padding: 0.8rem 2rem;
+border-radius: 20px;
+text-decoration: none;
+font-weight: bold;
+font-style: italic;
+}
