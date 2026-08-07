@@ -39,3 +39,8 @@ text-decoration: none;
 font-weight: bold;
 font-style: italic;
 }
+
+.btn-modal { background: #bae6fd; color: #0369a1; border: 2px solid #38bdf8; padding: 10px 20px; border-radius: 20px; cursor: pointer; margin-top: 20px; }
+.modal-box { background: #fff; border-radius: 20px; padding: 25px; color: #0284c7; box-shadow: 5px 5px 0 #38bdf8; border: none; }
+.modal-box::backdrop { background: rgba(255,255,255,0.6); backdrop-filter: blur(4px); }
+.partner-footer { position: absolute; bottom: 0; width: 100%; background: #0ea5e9; color: white; padding: 10px; text-align: center; }
