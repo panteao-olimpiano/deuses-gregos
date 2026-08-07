@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<title>Ares - Deus da Guerra</title>
-<link rel="stylesheet" href="../css/ares.css">
+    <meta charset="UTF-8">
+    <title>Ares - Deus da Guerra</title>
+    <link rel="stylesheet" href="../css/ares.css">
 </head>
+
 <body class="ares-theme">
-<section class="war-container">
-<div class="war-banner">
-<h1>ARES</h1>
-<p class="subtitle">A FÚRIA DA BATALHA</p>
-</div>
-<div class="war-content">
-<img src="https://static.wikia.nocookie.net/mitho/images/0/00/Gods-n-godesses-greek-mythology-29419417-700-975.jpg/revision/latest?cb=20130201233907&path-prefix=pt-br" alt="Ares" class="war-img">
-<article class="war-text">
-<h2>Sede de Combate</h2>
-<p>Deus da guerra brutal, do massacre e da força física desmedida na arena dos mortais.</p>
-<a href="../index.html" class="war-btn">ABANDONAR ARENA</a>
-</article>
-</div>
-</section>
+    <section class="war-container">
+        <div class="war-banner">
+            <h1>ARES</h1>
+            <p class="subtitle">A FÚRIA DA BATALHA</p>
+        </div>
+        <div class="war-content">
+            <img src="https://static.wikia.nocookie.net/mitho/images/0/00/Gods-n-godesses-greek-mythology-29419417-700-975.jpg/revision/latest?cb=20130201233907&path-prefix=pt-br"
+                alt="Ares" class="war-img">
+            <article class="war-text">
+                <h2>Sede de Combate</h2>
+                <p>Deus da guerra brutal, do massacre e da força física desmedida na arena dos mortais.</p>
+                <a href="../index.html" class="war-btn">ABANDONAR ARENA</a>
+            </article>
+            <button class="btn-modal" onclick="document.getElementById('modal-ares').showModal()">Equipar Lança</button>
+            <dialog id="modal-ares" class="modal-box">
+                <h2>A Lança de Sangue</h2>
+                <p>Sempre sedenta por batalha, nunca erra o peito do inimigo.</p>
+                <button onclick="this.closest('dialog').close()">Baixar Arma</button>
+            </dialog>
+            <footer class="partner-footer">
+                <p>Forjado no ódio por: [Seu Nome]</p>
+            </footer>
+        </div>
+    </section>
 </body>
+
 </html>
