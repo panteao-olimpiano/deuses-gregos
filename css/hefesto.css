@@ -1,0 +1,52 @@
+body.hefesto-theme {
+background-color: #1a1a1a;
+color: #fb923c;
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.forge-grid {
+background: #27272a;
+border: 4px solid #c2410c;
+padding: 2rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 2rem;
+max-width: 700px;
+box-shadow: 0 0 25px rgba(194, 65, 12, 0.4);
+}
+.forge-title {
+grid-column: 1 / -1;
+text-align: center;
+border-bottom: 2px dashed #9a3412;
+padding-bottom: 1rem;
+}
+.forge-img {
+width: 100%;
+border: 2px solid #fdba74;
+border-radius: 4px;
+}
+.forge-badge {
+background: #9a3412;
+color: #fff;
+padding: 0.5rem;
+display: inline-block;
+margin-top: 1rem;
+font-weight: bold;
+}
+.forge-footer {
+grid-column: 1 / -1;
+text-align: center;
+margin-top: 1.5rem;
+}
+.forge-btn {
+background: #ea580c;
+color: #fff;
+padding: 0.8rem 1.5rem;
+text-decoration: none;
+font-family: sans-serif;
+border-radius: 4px;
+}
