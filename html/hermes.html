@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<title>Hermes - Mensageiro dos Deuses</title>
-<link rel="stylesheet" href="../css/hermes.css">
+    <meta charset="UTF-8">
+    <title>Hermes - Mensageiro dos Deuses</title>
+    <link rel="stylesheet" href="../css/hermes.css">
 </head>
+
 <body class="hermes-theme">
-<div class="messenger-container">
-<div class="wings-icon">🪽</div>
-<h1>Hermes</h1>
-<img src="https://ulbra-to.br/encena/uploads/hermesgreekgodsprojectbyisikol-d4tqwvp-1.jpg" alt="Hermes" class="hermes-img">
-<div class="attributes">
-<p>Deus da velocidade, do comércio, dos viajantes e mensageiro oficial do Monte Olimpo.</p>
-</div>
-<a href="../index.html" class="speed-btn">← Voltar Rapidamente</a>
-</div>
+    <div class="messenger-container">
+        <div class="wings-icon">🪽</div>
+        <h1>Hermes</h1>
+        <img src="https://ulbra-to.br/encena/uploads/hermesgreekgodsprojectbyisikol-d4tqwvp-1.jpg" alt="Hermes"
+            class="hermes-img">
+        <div class="attributes">
+            <p>Deus da velocidade, do comércio, dos viajantes e mensageiro oficial do Monte Olimpo.</p>
+        </div>
+        <a href="../index.html" class="speed-btn">← Voltar Rapidamente</a>
+    </div>
+    <button class="btn-modal" onclick="document.getElementById('modal-hermes').showModal()">Abrir Encomenda</button>
+    <dialog id="modal-hermes" class="modal-box">
+        <h2>Sandálias Aladas</h2>
+        <p>Concedem a habilidade de voar mais rápido que o próprio vento.</p>
+        <button onclick="this.closest('dialog').close()">Decolar</button>
+    </dialog>
+    <footer class="partner-footer">
+        <p>Entregue por: [Seu Nome]</p>
+    </footer>
 </body>
+
 </html>
