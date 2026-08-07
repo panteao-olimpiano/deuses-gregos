@@ -1,0 +1,4 @@
+.btn-modal { background: #eab308; color: #000; padding: 10px 20px; border: none; cursor: pointer; font-weight: bold; margin-top: 20px; }
+.modal-box { background: #1e1b4b; color: #fef08a; border: 2px solid #eab308; border-radius: 8px; padding: 20px; text-align: center; }
+.modal-box::backdrop { background: rgba(0,0,0,0.8); }
+.partner-footer { margin-top: auto; padding: 20px; text-align: center; color: #eab308; border-top: 1px solid #eab308; width: 100%; }
