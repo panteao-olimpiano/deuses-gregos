@@ -1,0 +1,44 @@
+body.hades-theme {
+  background-color: #050505;
+  color: #a855f7;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.underworld-card {
+  background: #121212;
+  border: 1px solid #581c87;
+  border-radius: 4px;
+  padding: 2rem;
+  width: 450px;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.2);
+}
+.badge {
+  background: #581c87;
+  color: #fff;
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+}
+.banner-img {
+  width: 100%;
+  filter: grayscale(80%) contrast(120%);
+  margin: 1rem 0;
+}
+.stats {
+  border-top: 1px dashed #581c87;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.back-btn {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #c084fc;
+  text-decoration: none;
+}
