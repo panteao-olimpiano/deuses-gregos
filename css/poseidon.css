@@ -25,6 +25,8 @@ body.poseidon-theme {
 .ocean-img {
   border-radius: 50%;
   border: 4px solid #7dd3fc;
+  width: 250px; 
+  height: auto;
 }
 .main-details {
   padding: 2rem;

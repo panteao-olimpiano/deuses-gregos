@@ -32,6 +32,8 @@ body.atena-theme {
   padding: 8px;
   background: #fff;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  width: 250px;
+  height: auto;
 }
 .atena-back {
   display: block;

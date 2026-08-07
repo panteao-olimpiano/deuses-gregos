@@ -24,9 +24,10 @@ body.hades-theme {
   font-size: 0.8rem;
 }
 .banner-img {
-  width: 100%;
   filter: grayscale(80%) contrast(120%);
   margin: 1rem 0;
+  width: 400px; 
+  height: auto;
 }
 .stats {
   border-top: 1px dashed #581c87;
