@@ -1,0 +1,45 @@
+body.dionisio-theme {
+background-color: #2e1065;
+color: #f3e8ff;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+margin: 0;
+padding: 2rem;
+display: flex;
+justify-content: center;
+}
+.theater-stage {
+background: #4c1d95;
+border: 10px solid #7c3aed;
+border-radius: 12px 12px 0 0;
+padding: 2rem;
+max-width: 600px;
+text-align: center;
+box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+.curtain h1 {
+color: #c4b5fd;
+font-size: 3rem;
+margin: 0;
+}
+.epithet {
+font-style: italic;
+color: #a78bfa;
+}
+.wine-img {
+width: 80%;
+border-radius: 50%;
+border: 5px solid #8b5cf6;
+margin: 2rem 0;
+}
+.festivity p {
+font-size: 1.2rem;
+}
+.wine-btn {
+display: block;
+margin-top: 2rem;
+background: #6d28d9;
+color: #fff;
+padding: 1rem;
+text-decoration: none;
+border-radius: 4px;
+}
