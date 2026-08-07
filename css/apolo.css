@@ -1,0 +1,45 @@
+body.apolo-theme {
+  background: radial-gradient(circle at top, #fffbe1, #f59e0b 80%, #78350f);
+  color: #451a03;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  min-height: 100vh;
+}
+.sun-banner {
+  text-align: center;
+  background: #fef3c7;
+  padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 10px 25px rgba(245, 158, 11, 0.4);
+}
+.solar-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+.card-art {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card-art img {
+  width: 100%;
+  border-radius: 8px;
+}
+.sun-btn {
+  display: inline-block;
+  background: #78350f;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.apolo-nav {
+  text-align: center;
+}
