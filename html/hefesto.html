@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<title>Hefesto - Deus da Forja</title>
-<link rel="stylesheet" href="../css/hefesto.css">
+    <meta charset="UTF-8">
+    <title>Hefesto - Deus da Forja</title>
+    <link rel="stylesheet" href="../css/hefesto.css">
 </head>
+
 <body class="hefesto-theme">
-<main class="forge-grid">
-<header class="forge-title">
-<h1>Hefesto</h1>
-<span>Forja & Metalurgia</span>
-</header>
-<div class="forge-media">
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhag4dW3sUAd68jiV4mvr2wt4uVOGjSczKQNNi3GgSn_AVnPn-DdVhZRAo6H27D8Njr-q8h30KLDDufC1E3hsMtlUbdEig0flqsbEyScpEED3MPIwZFSBr8rDx8wdjvRUJsyAHafMYNe_A/s841/main-qimg-39df22fdd7b873b2fd27aa732598cdb0.jpg" alt="Hefesto" class="forge-img">
-</div>
-<div class="forge-info">
-<h3>Ofício Divino</h3>
-<p>Mestre ferreiro do Olimpo, criador das armas sagradas, armaduras dos deuses e autômatos de bronze.</p>
-<div class="forge-badge">Fogo & Metal</div>
-</div>
-<footer class="forge-footer">
-<a href="../index.html" class="forge-btn">← Sair da Oficina</a>
-</footer>
-</main>
+    <main class="forge-grid">
+        <header class="forge-title">
+            <h1>Hefesto</h1>
+            <span>Forja & Metalurgia</span>
+        </header>
+        <div class="forge-media">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhag4dW3sUAd68jiV4mvr2wt4uVOGjSczKQNNi3GgSn_AVnPn-DdVhZRAo6H27D8Njr-q8h30KLDDufC1E3hsMtlUbdEig0flqsbEyScpEED3MPIwZFSBr8rDx8wdjvRUJsyAHafMYNe_A/s841/main-qimg-39df22fdd7b873b2fd27aa732598cdb0.jpg"
+                alt="Hefesto" class="forge-img">
+        </div>
+        <div class="forge-info">
+            <h3>Ofício Divino</h3>
+            <p>Mestre ferreiro do Olimpo, criador das armas sagradas, armaduras dos deuses e autômatos de bronze.</p>
+            <div class="forge-badge">Fogo & Metal</div>
+        </div>
+        <footer class="forge-footer">
+            <a href="../index.html" class="forge-btn">← Sair da Oficina</a>
+        </footer>
+        <button class="btn-modal" onclick="document.getElementById('modal-hefesto').showModal()">Abrir Bigorna</button>
+        <dialog id="modal-hefesto" class="modal-box">
+            <h2>O Fogo de Lemnos</h2>
+            <p>A chama primordial usada para forjar as armas do Monte Olimpo.</p>
+            <button onclick="this.closest('dialog').close()">Fechar Fornalha</button>
+        </dialog>
+    </main>
 </body>
+
 </html>
