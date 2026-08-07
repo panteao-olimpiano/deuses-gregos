@@ -47,3 +47,8 @@ border-radius: 50px;
 text-decoration: none;
 font-weight: bold;
 }
+
+.btn-modal { background: #f43f5e; color: #fff; padding: 10px 20px; border-radius: 50px; border: none; cursor: pointer; margin-top: 15px; }
+.modal-box { background: #fff; border: 2px solid #fda4af; border-radius: 16px; padding: 20px; color: #881337; text-align: center; }
+.modal-box::backdrop { background: rgba(244, 63, 94, 0.4); backdrop-filter: blur(3px); }
+.partner-footer { position: fixed; bottom: 0; width: 100%; background: #e11d48; color: white; text-align: center; padding: 10px; }
